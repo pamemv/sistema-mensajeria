@@ -13,12 +13,99 @@ body {
   overflow-y: auto;
 }
 
-.content {
+.profile-section {
+  padding: 15px 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+  gap: 10px;
+}
+
+.profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.profile-status div {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+}
+
+.profile-status p {
+  margin: 0;
+  color: #bec1bb;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.7rem;
+}
+
+.profile-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.fa-solid {
+  color: #828485;
+}
+
+.fa-regular {
+  color: #828485;
+}
+
+.button-section {
+  display: flex;
+  justify-content: center;
+  padding: 45px 50px;
+}
+
+.new-chat-btn {
+  padding: 10px;
+  background-color: #a491d2;
+  color: white;
+  cursor: pointer;
+  border: none;
+  width: 220px;
+  height: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1rem;
+}
+
+.contact {
+  padding: 15px 35px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.contact-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.contact-info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #f8f8f8;
-  flex: 1 0 0;
-  gap: 30px;
+}
+
+.contact-info div {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+}
+
+.contact-info p {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+
+.hr-divider {
+  background-color: #e8ebe4;
+  height: 2px;
+  border: none;
+  margin: 0px;
 }
