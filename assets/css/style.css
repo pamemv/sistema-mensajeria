@@ -92,7 +92,7 @@ body {
   color: #828485;
 }
 
-.button-section {
+.new-chat-section {
   display: flex;
   justify-content: center;
   padding: 45px 50px;
@@ -108,6 +108,14 @@ body {
   height: 50px;
   font-family: "Open Sans", sans-serif;
   font-size: 1.1rem;
+}
+
+.new-chat-btn:hover {
+  background-color: #cdc3e6;
+}
+
+.new-chat-btn:focus {
+  background-color: #bec1bb;
 }
 
 .contact {
